@@ -19,8 +19,8 @@ sy=np.sum(y)
 sxy=np.sum(x*y)
 def f(Y,t):
     a1,a2=Y
-    #return [-sx2*a1-sx*a2+sxy,-sx*a1-len(x)*a2+sy]
-    return [-16*a1-8*a2+3,-8*a1-4*a2+1]
+    return [-sx2*a1-sx*a2+sxy,-sx*a1-len(x)*a2+sy]
+    #return [-16*a1-8*a2+3,-8*a1-4*a2+1]
 y1=np.linspace(-15,15,100)    
 y2=np.linspace(-15,15,100)
 
